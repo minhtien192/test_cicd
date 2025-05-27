@@ -3,6 +3,10 @@ const app = express();
 const port = 3000;
 
 console.log('Starting the server...');
+console.log('Starting the server...');
+console.log('Starting the server...');
+console.log('Starting the server...');
+
 
 app.get('/ping', (req, res) => {
   res.json({ message: 'pong' });
